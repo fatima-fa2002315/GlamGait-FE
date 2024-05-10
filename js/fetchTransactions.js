@@ -5,7 +5,7 @@ function loadHistory() {
   let requestBody = {
     buyerID :  userDetails.id
   }
-  fetch("http://glam-gait-be.vercel.app/api/transactions/fetchTransaction", {
+  fetch("https://glam-gait-be.vercel.app/api/transactions/fetchTransaction", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

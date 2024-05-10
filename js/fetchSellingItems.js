@@ -46,7 +46,7 @@ function loadProducts() {
   let requestBody = {
     sellerId: userDetails.id,
   };
-  fetch("http://glam-gait-be.vercel.app/api/products/getProductbySeller", {
+  fetch("https://glam-gait-be.vercel.app/api/products/getProductbySeller", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

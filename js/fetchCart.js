@@ -134,7 +134,7 @@ function placeOrder(e) {
     showToast("You Doesn't have enough money to purchase this");
   } else {
     fetch(
-      "http://glam-gait-be.vercel.app/api/transactions/createTransaction",
+      "https://glam-gait-be.vercel.app/api/transactions/createTransaction",
       requestOptions
     )
       .then((response) => {

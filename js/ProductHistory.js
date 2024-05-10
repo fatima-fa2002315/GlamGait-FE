@@ -10,7 +10,7 @@ function loadProduct() {
       productID: productId,
       sellerId: userDetails.id,
     };
-    fetch("http://glam-gait-be.vercel.app/api/products/getProductHistory", {
+    fetch("https://glam-gait-be.vercel.app/api/products/getProductHistory", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
