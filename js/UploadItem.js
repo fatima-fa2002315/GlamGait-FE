@@ -37,11 +37,6 @@ async function uploadItem(e) {
     return;
   }
 
-  // Check if quantity is within range
-  if (quantity < 1 || quantity > 10) {
-    alert("quantity must be between 1 and 10");
-    return;
-  }
 
   // Check if price is valid
   if (productPrice < 5) {
