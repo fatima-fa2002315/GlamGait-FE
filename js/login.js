@@ -27,7 +27,7 @@ function authUser(e) {
     };
 
     // Send POST request to login API endpoint
-    fetch("http://localhost:3000/api/user/login", {
+    fetch("http://glam-gait-be.vercel.app/api/user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

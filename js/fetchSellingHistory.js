@@ -50,7 +50,7 @@ function appendProducts(products, productContainer) {
     let requestBody = {
       sellerId: userDetails.id,
     };
-    fetch("http://localhost:3000/api/products/getSoldProducts", {
+    fetch("http://glam-gait-be.vercel.app/api/products/getSoldProducts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -57,7 +57,7 @@ async function uploadItem(e) {
 
   // Send POST request to Node.js server
 
-    let resp = await fetch("http://localhost:3000/api/products/uploadProduct", {
+    let resp = await fetch("http://glam-gait-be.vercel.app/api/products/uploadProduct", {
       method: "POST",
       body: formData,
     });

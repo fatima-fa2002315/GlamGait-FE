@@ -63,7 +63,7 @@ function loadProducts(IsSearched,currenttab) {
     productName :  IsSearched ? searchInput.value.toLowerCase()  : '',
     type :type
   }
-  fetch("http://localhost:3000/api/products/getProducts", {
+  fetch("http://glam-gait-be.vercel.app/api/products/getProducts", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
